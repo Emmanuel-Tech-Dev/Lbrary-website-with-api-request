@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library_E</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href=' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css'>
+</head>
+<body>
+   
+    <!-- Header Starts -->
+
+    <header>
+        <!-- Nav Starts  -->
+       <nav>
+        <lable for=" " class="logo"><img src="./img/book-gold-logo.png"></lable>
+
+        <ul class="navlinks">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="other-nav">
+            <form>
+               <form class="example" >
+  <input type="text" placeholder="Search.." name="search">
+  <button class="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+</form>
+              </form>
+           
+        </div>
+       </nav>
+
+
+        <!-- Nav Ends  -->
+    </header>
+
+    <!-- Header ends -->
+
+    <!-- Jumbotron starts -->
+    <section>
+<div class="container">
+    <div class="jumbotron">
+        <div class="jum-content">
+           <h1> The Library_E Books</h1>
+           <p> Your number one stop for your online books!</p>
+        </div>
+        <div class="jum-img">
+            <img src="./img/image 7.png">
+        </div>
+    </div>
+</div>
+    </section>
+    <!-- Jumbotron ends -->
+
+<!-- fiter-buttons starts  -->
+
+<section>
+
+    <div class="container">
+        <div class="filter-buttons">
+            <div class="filter">
+                <a class="active" href="#">All</a>
+               
+                <a href="#">Career</a>
+                <a href="#">Religion</a>
+                <a href="#">Business</a>
+                <a href="#">Art & Photography</a>
+                <a href="#">Science</a>
+                <a href="#">Family</a>
+                <a href="#">Programming</a>
+                <a href="#">Ui/Ux</a>
+             
+            </div>
+            <div class="sort">
+                <form>
+                    Sort By
+                    <select>
+                        <option>Genre</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<div class="container">
+<div class="search-value" id="search-value">
+   Your search results for '<span id="value"></span>'
+</div>
+</div>
+<!-- fiter-buttons ends  -->
+<div id="loader"></div>
+<!-- The books card starts-->
+ <section id="card" >
+    <div class="container">
+        <div class="card-container" id="card-container">
+ <div class="card">
+    <div class="card-image">
+    <img src="./img/default_cover.jpg" alt="">
+</div>
+   <div class="card-body">
+     <h4 class="card-title" id="card-title"></h4>
+     <p class="card-subtitle text-muted" id="card-subtitle">Lorem ipsum dolor sit amet.</p>
+   </div>
+   
+   <div class="card-body2">
+     <p class="card-text" id="year">5.7</p>
+     <a href="#" class="card-link">Read</a>
+   </div>
+ </div>
+  <div class="card">
+    <div class="card-image">
+    <img src="./img/yellow-business.jpg" alt="">
+</div>
+   <div class="card-body">
+     <h4 class="card-title">The mind of a leader</h4>
+     <p class="card-subtitle text-muted">Lorem ipsum dolor sit amet.</p>
+   </div>
+   
+   <div class="card-body2">
+     <p class="card-text">5.7</p>
+     <a href="#" class="card-link">Read</a>
+   </div>
+ </div>
+ <div class="card">
+    <div class="card-image">
+    <img src="./img/yellow-business.jpg" alt="">
+</div>
+   <div class="card-body">
+     <h4 class="card-title">The mind of a leader</h4>
+     <p class="card-subtitle text-muted">Lorem ipsum dolor sit amet.</p>
+   </div>
+   
+   <div class="card-body2">
+     <p class="card-text">5.7</p>
+     <a href="#" class="card-link">Read</a>
+   </div>
+ </div>
+ <div class="card">
+    <div class="card-image">
+    <img src="./img/yellow-business.jpg" alt="">
+</div>
+   <div class="card-body">
+     <h4 class="card-title">The mind of a leader</h4>
+     <p class="card-subtitle text-muted">Lorem ipsum dolor sit amet.</p>
+   </div>
+   
+   <div class="card-body2">
+     <p class="card-text">5.7</p>
+     <a href="#" class="card-link">Read</a>
+   </div>
+ </div>
+ 
+</div>
+</div>
+<div id="load-more">
+    load more
+</div>
+</section>
+
+
+<!-- The books card ends-->
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">Welcome to the online E_LIBRARY, your one-stop destination for all your reading needs!</p>
+        <p class="text-justify">Although our website is currently under construction, we are excited to offer you a sneak peek into what we have in store. Through our website, you will have access to a wide range of books, journals, articles, and other resources that will help you expand your knowledge and explore new horizons.</p>
+        <p class="text-justify">Our website is designed to be user-friendly and intuitive, so that you can easily navigate through our collections and find the information you need. Our search engine is powered by a robust API, which allows us to fetch data from a variety of sources and present it to you in a clean, organized manner.</p>
+        <p class="text-justify">Whether you are a student, a researcher, or simply someone who enjoys reading, our website has something for everyone. You can browse through our collections by subject, author, title, or keyword, and filter your search results to find exactly what you are looking for.</p>
+        <p class="text-justify">In addition to our extensive collection of books and journals, we also offer a range of online resources such as e-books, audiobooks, and online courses. Our website also provides access to a variety of databases and archives, which contain valuable information on a wide range of topics.</p>
+        <p class="text-justify">We are constantly working to improve our website and make it the best possible resource for our users. If you have any feedback or suggestions on how we can improve our services, please do not hesitate to contact us.</p>
+        <p class="text-justify">Thank you for visiting our website, and we look forward to serving you soon!</p>
+      </div> 
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row c-right">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+     <a href="https://twitter.com/_Mr_Emma">Mr_Emma <em>A front-end developer</em></a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="twitter" href="https://twitter.com/_Mr_Emma"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="https://www.behance.net/emmanuelkusi"><i class="fab fa-behance"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/in/emmanuel-kusi-b8a6981a6/"><i class="fab fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
